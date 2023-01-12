@@ -1,0 +1,46 @@
+.navbar {
+    background-color: purple;
+    font-family:  Baskerville, Baskerville Old Face, Garamond, Times New Roman, serif;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.navbar-brand {
+    font-family: Copperplate, Copperplate Gothic Light, fantasy;
+    color: gold;
+}
+
+.nav-link {
+    color: gold;
+}
+
+.nav-link:hover {
+    /* background-color: green; */
+    /* background: green;
+    border-radius: 50%; */
+}
+
+.nav-item {
+    color: gold;
+}
+
+.btn-outline-success {
+    color: gold;
+    border-color: gold;
+}
+
+#glf-logo {
+    width: 2rem;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 820px) {
+    .nav-link:hover {
+        background: aqua;
+    }
+
+    .navbar-toggler {
+        background: gold;
+    }
+} 

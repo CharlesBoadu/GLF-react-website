@@ -1,0 +1,38 @@
+.carousel-item {
+    height: 32rem;
+    background: black;
+    color: white;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-bottom: 50px;
+}
+
+.carousel-control-prev {
+    z-index: 1000;
+}
+
+.overlay-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+/* .hero-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+} */
+
