@@ -1,6 +1,12 @@
 import React from 'react';
 import './HeroSection.css';
 
+let activeButton = document.querySelector('.nav-link')
+
+const setActive = () => {
+  console.log('Hello')
+}
+
 function HeroSection () {
     return (
     <>
@@ -38,7 +44,7 @@ function HeroSection () {
                     <div className='container'>
                         <h1>Generous Life Foundation</h1>
                         <p>Hi, Welcome to the official website of GLF. Click on the button below to join us!</p>
-                        <a href='/sign-up' className='btn btn-lg btn-primary'>
+                        <a href='/sign-up' className='btn btn-lg btn-primary' onClick={setActive}>
                             Sign Up Today
                         </a>
                     </div>

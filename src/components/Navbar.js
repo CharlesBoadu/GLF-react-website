@@ -2,6 +2,12 @@ import React from 'react';
 import '../components/Navbar.css';
 import Button from '../components/Button';
 
+let activeButton = document.querySelector('.nav-link')
+
+const setActive = () => {
+  console.log('Hello')
+}
+
 function Navbar () {
     return (
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
@@ -13,7 +19,7 @@ function Navbar () {
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item"> 
-           <a class="nav-link active" aria-current="page" href="/">Home</a> 
+           <a class="nav-link" aria-current="page" href="/" onClick={setActive}>Home</a> 
         </li> 
         <li class="nav-item">
           <a class="nav-link" href="/success-stories">Success Stories</a>
